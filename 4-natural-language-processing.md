@@ -4,6 +4,15 @@
 
 Definition of NLP: Process of analyzing and evaluating text (from a document or a phrase) to get context, meaning, and insights.
 
+ **Text Analytics** and the various methods used in natural language processing (NLP), such as tokenization, frequency analysis, machine learning for text classification, and semantic language models. These techniques help extract insights and meaningful data from large text corpora.
+
+- **Tokenization**: Breaking down text into smaller units (tokens) for further analysis. Techniques like text normalization, stop word removal, and stemming improve the process.
+- **Frequency Analysis**: Counting the occurrence of words or terms to gauge the primary subject of a text.
+- **Machine Learning for Text Classification**: Algorithms like logistic regression can classify text based on features derived from tokens, such as sentiment analysis.
+- **Semantic Language Models**: These models represent words as vectors in a multidimensional space, capturing their semantic relationships. Embedding techniques help language models understand the context and meaning behind words.
+
+These concepts are foundational for Azure AI's **Text Analytics** capabilities, such as sentiment analysis, entity recognition, and language detection.
+
 ## Analyze text with the Language Service
 
 [Learning Module](https://learn.microsoft.com/training/modules/analyze-text-with-text-analytics-service/?WT.mc_id=academic-0000-alfredodeza)
@@ -17,10 +26,13 @@ The service can:
 - Extract key phrases
 - Identify and categorize entities like dates, places, and people
 
-Resources:
-
-- **Language**: Exclusively for that service, does not have access to any other cognitive service
-- **Cognitive Services**: Provides other services including Language
+- Named entity recognition identifies people, places, events, and more. This feature can also be customized to extract custom categories.
+- Entity linking identifies known entities together with a link to Wikipedia.
+- Personal identifying information (PII) detection identifies personally sensitive information, including personal health information (PHI).
+- Language detection identifies the language of the text and returns a language code such as "en" for English.
+- Sentiment analysis and opinion mining identifies whether text is positive or negative.
+- Summarization summarizes text by identifying the most important information.
+Key phrase extraction lists the main concepts from unstructured text.
 
 ### Language Detection
 
@@ -34,7 +46,7 @@ Provides the following for each doc:
 
 **Predominant** language is always chosen even on mixed language text. Can provide an **unknown** value if it can't detect the language with a **NaN** for score (Not a Number)
 
-### Sentiment Analysis
+### Sentiment Analysis and opinion mining
 
 Definition: Ability to provide a positive, neutral, or negative sentiment in text.
 
