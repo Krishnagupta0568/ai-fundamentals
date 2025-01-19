@@ -12,7 +12,9 @@
 - **Anomaly Detection**: Automatic error detection based on anomaly
 - **Computer Vision**: Interpretation of images and video
 - **Natural Language Processing (NLP)**: Interpret written or spoken language
+- **Document Intelligence**: Manging, Processing, and using high volume of data found in forms and documents.
 - **Knowledge mining**: Information extraction from unstructured data
+- **Generative AI**: Create orginal content in a variety of formats including Natural Language, image, code and more.
 
 ### Machine Learning
 
@@ -21,9 +23,11 @@ Definition: The foundation for most AI solutions
 How does it work:
 
 - Machines (computers) learn from data
-- Data Scientists use data to train machine learning models to make predicitons based on data.
+- Data Scientists use data to train machine learning models to make predicitons and inferences based on the relationships in the data.
 
 ### Machine Learning on Azure
+
+A cloud based platform for creating, managing, and publishing machine learning models.
 
 - **Automated ML (AutoML)**: Create effective ML models with no expertise needed
 - **Azure ML Designer**: A GUI for no-code development of ML models
