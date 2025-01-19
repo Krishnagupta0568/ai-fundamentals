@@ -126,6 +126,7 @@ Azure OpenAI Service: deploying, customizing, and hosting generative AI models. 
 ## Challenges and risks with AI
 
 | Challenge or Risk |	Example |
+| -                 | -       |
 | Bias can affect results |	A loan-approval model discriminates by gender due to bias in the data with which it was trained |
 | Errors may cause harm	| An autonomous vehicle experiences a system failure and causes a collision |
 | Data could be exposed |	A medical diagnostic bot is trained using sensitive patient data, which is stored insecurely |
@@ -139,13 +140,15 @@ Azure OpenAI Service: deploying, customizing, and hosting generative AI models. 
 AI development at Microsoft uses 6 principles:
 
 - **Fairness**: AI systems should treat all people fairly
+- Example: create a machine learning model to support a loan approval application for a bank. The model should predict whether the loan should be approved or denied without bias. This bias could be based on gender, ethnicity, or other factors that result in an unfair advantage or disadvantage to specific groups of applicants.
 
 - **Reliability & Safety**: AI systems should work reliably and safely
+- Example: AI-based software system for an autonomous vehicle; or a machine learning model that diagnoses patient symptoms and recommends prescriptions. Unreliability in these kinds of systems can result in substantial risk to human life.
 
 - **Privacy & Security**: Respect privacy and consider security at all times, even after deployment
 
 - **Inclusiveness**: Empower everyone regardless of ability, gender, and other factors
 
-- **Transparency**: Systems shouold be understandable
+- **Transparency**: Systems shouold be understandable. Users should be made fully aware of the purpose of the system, how it works, and what limitations may be expected.
 
-- **Accountability**: People should be accountable. Engineers and designers should work with a governance framework
+- **Accountability**: People should be accountable. Engineers and designers should work with a governance framework and organizational principles that ensure the solution meets ethical and legal standards that are clearly defined.
