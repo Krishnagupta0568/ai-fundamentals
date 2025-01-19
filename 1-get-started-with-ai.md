@@ -33,6 +33,7 @@ A cloud based platform for creating, managing, and publishing machine learning m
 - **Azure ML Designer**: A GUI for no-code development of ML models
 - **Data and Compute**: Cloud-based resources for data scientists tu run experiments
 - **Pipelines**: A way to orchestrate tasks like training, validation, and deployment
+- **Notebooks**: Write and run your own code in managed Jupyter Notebook servers that are directly integrated in the studio.
 
 ### Anomaly Detection
 
@@ -43,6 +44,8 @@ Definition: Analyzing data over time to identify unusual changes
 ### Computer Vision
 
 Definition: Area of AI for visual processing based on interpretation of images and video
+
+The Seeing AI app is a great example of the power of computer vision. Designed for the blind and low vision community, the Seeing AI app harnesses the power of AI to open up the visual world and describe nearby people, text and objects.
 
 **Models and capabilities**
 
@@ -62,18 +65,27 @@ Azure Services
 - **Face**: Face detection and facial recognition solutions
 - **Form Recognizer**: Information extraction from scanned documents
 
+Computer vision services in Microsoft Azure
+
+Use Microsoft's Azure AI Vision to develop computer vision solutions. The service features are available for use and testing in the Azure Vision Studio and other programming languages. Some features of Azure AI Vision include:
+
+- **Image Analysis**: capabilities for analyzing images and video, and extracting descriptions, tags, objects, and text.
+- **Face**: capabilities that enable you to build face detection and facial recognition solutions.
+- **Optical Character Recognition (OCR)**: capabilities for extracting printed or handwritten text from images, enabling access to a digital version of the scanned text.
+
+
 ### Natural Language Processing
 
 Definition: Area of AI that understands written and spoken language
 
 Uses:
 
-- Analyze and interpret text in documents
-- Interpret spoken language
-- Translattion of written and spoken languages
-- Interpret commands
+- Analyze and interpret text in documents, email messages, and other sources.
+- Interpret spoken language, and synthesize speech responses.
+- Automatically translate spoken or written phrases between languages.
+- Interpret commands and determine appropriate actions.
 
-Azure Services
+Natural language processing in Microsoft Azure Services
 
 - **Language**:  Analyze text or spoken language to build smart applications
 - **Translator**: Translation service for more than 60 languages
@@ -81,11 +93,16 @@ Azure Services
 - **Azure Bot**: Conversational AI with the ability to connect to channels like email, Teams, and web chat
 
 
-### Knowledge Mining
+### Document Intelligence and Knowledge Mining
 
-Definition: Describe solutions about extracting information from unstructured data to create a searchable one
+Document Intelligence: Document Intelligence is the area of AI that deals with managing, processing, and using high volumes of a variety of data found in forms and documents. Document intelligence enables you to create software that can automate processing for contracts, health documents, financial forms and more
 
-Azure Service: Azure Cognitive Search, and enterprise solution for building searchable indexes from private or public assets including analyzing images.
+- Document Intelligence to build solutions that manage and accelerate data collection from scanned documents.
+- Document Intelligence help automate document processing in applications and workflows, enhance data-driven strategies, and enrich document search capabilities.
+
+Knowledge Mining: Describe solutions about extracting information from large volume of unstructured data to create a searchable one
+
+Azure Service: Azure Cognitive Search, and enterprise solution for building searchable indexes from private or public assets including image processing, document intelligence, and natural language processing to extract data, enabling quick insights from large datasets and indexing previously unsearchable content.
 
 ### Challenges and Risks
 
@@ -98,18 +115,37 @@ Challenges or risks:
 - **Complex systems**: Users must trust how solutions are generated (e.g. from what data)
 - **Liability**:  Who/what is liable for decisions?
 
+### Generative AI
+
+Defination: describes a category of capabilities within AI that create original content.
+
+## Generative AI in Azure
+ 
+Azure OpenAI Service: deploying, customizing, and hosting generative AI models. It combines OpenAI's advanced models with Azure's security and scalability. supports various foundation models for different use cases and is accessible via Azure AI Foundry, a platform for managing and developing enterprise-grade AI solutions.
+
+## Challenges and risks with AI
+
+| Challenge or Risk |	Example |
+| Bias can affect results |	A loan-approval model discriminates by gender due to bias in the data with which it was trained |
+| Errors may cause harm	| An autonomous vehicle experiences a system failure and causes a collision |
+| Data could be exposed |	A medical diagnostic bot is trained using sensitive patient data, which is stored insecurely |
+| Solutions may not work for everyone |	A home automation assistant provides no audio output for visually impaired users |
+| Users must trust a complex system |	An AI-based financial tool makes investment recommendations - what are they based on? |
+| Who's liable for AI-driven decisions? |	An innocent person is convicted of a crime based on evidence from facial recognition – who's responsible? |
+
+
 ### Responsible AI
 
 AI development at Microsoft uses 6 principles:
 
-Fairness: AI systems should treat all people fairly
+- **Fairness**: AI systems should treat all people fairly
 
-Reliability & Safety: AI systems should work reliably and safely
+- **Reliability & Safety**: AI systems should work reliably and safely
 
-Privacy & Security: Respect privacy and consider security at all times, even after deployment
+- **Privacy & Security**: Respect privacy and consider security at all times, even after deployment
 
-Inclusiveness: Empower everyone regardless of ability, gender, and other factors
+- **Inclusiveness**: Empower everyone regardless of ability, gender, and other factors
 
-Transparency: Systems shouold be understandable
+- **Transparency**: Systems shouold be understandable
 
-Accountability: People should be accountable. Engineers and designers should work with a governance framework
+- **Accountability**: People should be accountable. Engineers and designers should work with a governance framework
