@@ -1,0 +1,74 @@
+## Get Started With Facial Analysis
+
+### **Azure AI Face Service**
+
+Microsoft Azure offers various AI services for facial analysis, each with its own strengths:
+
+- **Azure AI Vision**: Provides face detection and basic face analysis (e.g., bounding box coordinates).
+- **Azure AI Video Indexer**: Detects and identifies faces in videos.
+- **Azure AI Face**: Offers the most comprehensive facial analysis, with capabilities such as face detection, recognition, and a variety of face attributes.
+
+**Azure AI Face** is the most feature-rich option, allowing advanced facial analysis, including detecting and identifying faces in images.
+
+### **Key Features of Azure AI Face Service**
+
+1. **Face Detection**: 
+   - Returns rectangle coordinates for human faces found in an image.
+
+2. **Facial Attributes**:
+   - **Accessories**: Detects accessories like headwear, glasses, or masks, with confidence scores for each item.
+   - **Blur**: Indicates how blurred the face is, which may help determine the focus of the image.
+   - **Exposure**: Analyzes if the face is underexposed or overexposed.
+   - **Glasses**: Identifies if a person is wearing glasses.
+   - **Head Pose**: Determines the orientation of the face in 3D space.
+   - **Mask**: Detects whether the person is wearing a mask.
+   - **Noise**: Assesses the visual noise (graininess) in the image.
+   - **Occlusion**: Identifies if any objects are blocking the face.
+   - **Quality for Recognition**: Evaluates the quality of the image for performing facial recognition.
+
+3. **Advanced Capabilities (Limited Access)**:
+   - **Face Verification**: Compares two faces to check for similarity.
+   - **Face Identification**: Identifies named individuals in an image.
+   - **Liveness Detection**: Detects whether the image or video is genuine or manipulated.
+
+---
+
+### **Azure Resources for Face Service**
+
+To use Azure AI Face, you must create one of the following resource types in your Azure subscription:
+1. **Face**: This resource is dedicated solely to facial analysis services, ideal if you don't need other Azure AI services.
+2. **Azure AI Services**: If you plan to use multiple Azure AI services (e.g., Language, Content Safety), this resource type allows for a more streamlined administration.
+
+### **Important Considerations for Accurate Face Detection**
+
+1. **Image Format**:
+   - Supported formats include **JPEG**, **PNG**, **GIF**, and **BMP**.
+   
+2. **File Size**:
+   - The image should be **6 MB or smaller**.
+
+3. **Face Size Range**:
+   - Faces should range from **36x36 pixels to 4096x4096 pixels**. Faces outside this range may not be detected.
+
+4. **Other Factors Affecting Accuracy**:
+   - **Extreme face angles** or **lighting conditions** can impair face detection.
+   - **Occlusions**, like objects blocking the face (e.g., hands), can also affect detection.
+
+---
+
+### **Responsible AI Use and Limited Access Policy**
+
+To align with Microsoft's **Responsible AI Standard**, the Azure AI Face and Vision services have a **Limited Access** policy:
+- **Public Access**: Available for face detection, head pose, occlusion, glasses detection, and more.
+- **Limited Access**: Requires submitting an intake form to access advanced features like **face verification**, **identification**, and **liveness detection**.
+
+---
+
+### **Use Cases for Azure AI Face**
+
+1. **Security**: Facial recognition for access control or surveillance systems.
+2. **Customer Insights**: Analyzing customer demographics and expressions for sentiment analysis in retail or marketing.
+3. **Healthcare**: Identifying patients and tracking their medical interactions based on facial recognition.
+4. **Media**: Detecting and tracking people in videos for content analysis and indexing.
+
+---
